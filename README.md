@@ -1,5 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NOTE:
+Project started with the "Complete React Developer in 2020" on Udemy
+https://www.udemy.com/share/101WH4CEoSdlxUQng=/
 
+If you want to join Udemy, follow the link below
+https://www.udemy.com/share/100F3uCEoSdlxUQng=/?xref=E0oSeFlQQ3sFSWUuAAcqP1kSWSRM
+
+Project has been adapted to follow the challenge 26 from Zero to Mastery
+zero-to-mastery/coding_challenge-26
+
+
+#########
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
