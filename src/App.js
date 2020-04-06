@@ -22,6 +22,7 @@ class App extends Component {
     const filteredData = data.filter(country => 
       country.country.toLowerCase().includes(searchField.toLowerCase())
       )
+    
     return (
       <div className="App">
         <SearchBox 

@@ -7,7 +7,9 @@ export const Card  = (props) => (
         <h1 >Country: {props.country.country}</h1>
         <h2 >Total Cases: {props.country.cases}</h2>
         <h2 >Total Deaths: {props.country.deaths}</h2>
-        <h3 >Total Active: {props.country.active}</h3>
-        <h3> Last Update: {props.country.updated.toString()}</h3>
+        <h3 >Total Active: {props.country.active}</h3>        
     </div>
 )
+
+
+// <h3> Last Update: {props.country.updated}</h3>
