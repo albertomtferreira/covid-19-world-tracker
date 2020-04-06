@@ -9,9 +9,8 @@ class App extends Component {
     super();
     this.state = {
       data: [],
-      searchField:''
+      searchField:'',
     };
-
   }
   componentDidMount(){
     fetch('https://corona.lmao.ninja/countries?sort=cases')
@@ -28,7 +27,6 @@ class App extends Component {
     const filteredData = data.filter(country => 
       country.country.toLowerCase().includes(searchField.toLowerCase())
       )
-    
     return (
       <div className="App">
         <h1>Covid-19 World Tracker</h1>
