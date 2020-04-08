@@ -8,9 +8,10 @@ export const Card  = (props) => (
         <h2 >Total Cases: {props.country.cases}</h2>
         <h2 >Total Deaths: {props.country.deaths}</h2>
         <h3 >Total Active: {props.country.active}</h3>
-        <h3> Last Update: {Date()}</h3>
-        <h4>{console.log("first: ",props.country.updated)}</h4>
-        <h4>{console.log("second: ",`${props.country.updated}`)}</h4>
-        <h4>{console.log("third: ",(new Date().getTime(`${props.country.updated}`).toString()))}</h4>
+        <h3 >Total Active: {props.country.updated}</h3>
     </div>
 )
+
+// <h4>{new Date(new Date(props.country.updated).toString())}</h4>
+
+// <h4>{console.log(new Date(new Date(props.country.updated).toString()))}</h4>

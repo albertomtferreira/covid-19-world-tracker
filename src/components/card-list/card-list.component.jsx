@@ -6,7 +6,7 @@ import './card-list.styles.css';
 export const CardList = props => (
     <div className='card-list'>
     {props.data.map(country => (
-        <Card key={country.country}  country={country}/>
+        <Card key={country.country} country={country} />
       ))}
     </div>
 )

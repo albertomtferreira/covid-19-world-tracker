@@ -25,9 +25,10 @@ class App extends Component {
 
   render() {
     const {data, searchField} = this.state;
+
     const filteredData = data.filter(country => 
       country.country.toLowerCase().includes(searchField.toLowerCase())
-      )
+    )
     return (
       <div className="App">
         <h1>Covid-19 World Tracker</h1>
@@ -42,5 +43,4 @@ class App extends Component {
     );
   }
 }
-// <Footer/>
 export default App;
