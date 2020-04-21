@@ -11,6 +11,7 @@ return(
         <h2>Total Cases: {props.country.cases}</h2>
         <span>Today Cases: {props.country.todayCases}</span>
         </div>
+        
 
         <div className='cases-container'>
         <h2>Total Deaths: {props.country.deaths}</h2>
