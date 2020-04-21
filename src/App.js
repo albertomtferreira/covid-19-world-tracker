@@ -14,7 +14,7 @@ class App extends Component {
     };
   }
   componentDidMount(){
-    fetch('https://corona.lmao.ninja/countries?sort=cases')
+    fetch('https://corona.lmao.ninja/v2/countries?sort=cases')
       .then(response => response.json())
       .then(country => this.setState({data: country}))
   }
