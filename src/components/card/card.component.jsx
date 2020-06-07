@@ -1,8 +1,6 @@
 import React from 'react';
 import './card.styles.css';
 
-
-
 export const Card  = (props) => {
     function lastUpdated() {
         console.log("Last Updated: ", new Date(new Date(props.country.updated).toString()));
