@@ -2,15 +2,11 @@ import React from 'react';
 import './card.styles.css';
 
 export const Card  = (props) => {
-    function lastUpdated() {
-        console.log("Last Updated: ", new Date(new Date(props.country.updated).toString()));
-        new Date(new Date(props.country.updated).toString());
-    }
-    
-    return(
+   return(
         <div className='card-container'>
             <img className='flag-container' alt={`${props.country.countryInfo.iso3}`} src={props.country.countryInfo.flag}/>
-            <h1>Country: {props.country.country}</h1>
+            <h1>Country: </h1>
+            <h1>{props.country.country}</h1>
             <div className='cases-container'>
             <h2>Total Cases: {props.country.cases}</h2>
             <span>Today Cases: {props.country.todayCases}</span>
@@ -35,10 +31,8 @@ export const Card  = (props) => {
             <div className='cases-container'>
             <h5>Total Active: {props.country.updated}</h5>
             </div>
-            <h3 >Last Updated: {lastUpdated()}</h3>
-        </div>      
-    )
-}
+        </div>
+    )}
 
 
 // <h4>{console.log(new Date(new Date(props.country.updated).toString()))}</h4>
